@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Web Tech"
+		},
+		{
+			"path": "../../../../Bootstrap"
+		},
+		{
+			"path": "../../../../Projects"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../React/ECMA_Script_6(ES6)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ReactJS"
+	}
+}

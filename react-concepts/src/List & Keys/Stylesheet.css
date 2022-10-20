@@ -1,0 +1,12 @@
+.primary
+{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 10cm,goldenrod;
+    border-style: dashed;
+}
+.font-xl{
+   font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
