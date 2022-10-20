@@ -19,13 +19,13 @@ import ListRendering from './Rendering & Destructor/ListRendering'
 // import RP_Counter from './Rendering & Destructor/Render Props Partten/RP_Counter'
 
 //Context API 
-import CompC from './Rendering & Destructor/ContextAPI/CompC'
-import { UserProvider } from './Rendering & Destructor/ContextAPI/ContextAPI_1'
+// import CompC from './Rendering & Destructor/ContextAPI/CompC'
+// import { UserProvider } from './Rendering & Destructor/ContextAPI/ContextAPI_1'
 
 
 //HTTP GET & POST
 import HTTP_Req_Intro from './Rendering & Destructor/HTTP Request/HTTP_Req_Intro'
-import HTTP_REQ_POST from './Rendering & Destructor/HTTP Request/HTTP_REQ_POST'
+//import HTTP_REQ_POST from './Rendering & Destructor/HTTP Request/HTTP_REQ_POST'
 
 
 export default function Destructor() {
@@ -54,13 +54,13 @@ export default function Destructor() {
      
 
      {/* Context API is used to wrap the props or state inside the one element so that a every child component can have access and we can use when ever we can asscess */}
-            <UserProvider value='Context to F Comp'>
+            {/* <UserProvider value='Context to F Comp'>
           <CompC />
-          </UserProvider>
+          </UserProvider> */}
             <hr></hr>
             <HTTP_Req_Intro />
             <hr></hr>
-            <HTTP_REQ_POST/>
+            {/* <HTTP_REQ_POST/> */}
      </div>
     )
   }

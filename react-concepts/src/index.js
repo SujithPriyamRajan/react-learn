@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 //import './index.css';
 
-import App from './App'; 
+//import App from './App'; 
 
 // For Class & Function Components
 // props & states
@@ -20,7 +20,7 @@ import App from './App';
 //Along with component Did mounting & Component unmounting
 //using UseState with Objects & Arrays 
 
-//import Destructor from './Destructors';
+import Destructor from './Destructors';
 
 //destructors props of function competent
 //destructors props of class competent
@@ -53,11 +53,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />   
+    {/* <App />    */}
 
     {/* <Hooks /> */}
 
-    {/* <Destructor /> */}
+    <Destructor />
     
     {/* <ListandKeys /> */}
 
