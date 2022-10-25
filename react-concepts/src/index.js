@@ -48,6 +48,9 @@ import Destructor from './Destructors';
 //HIgher Order Component
 //HTTP REQUEST TO GET & POST
 
+
+//MYSQL connect in differents
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
