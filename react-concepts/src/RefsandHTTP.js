@@ -12,8 +12,8 @@ import Forwarding_href from './Refs & HTTP Req/Forwarding_href'
 import PortalDemo from './Refs & HTTP Req/PortalDemo'
 //How portal Work in Components in UI 
 
-//import ErrorBoundarys from './Refs & HTTP Req/ErrorBoundarys'
-//import errorBoundaryHandling from './Refs & HTTP Req/errorBoundaryHandling'
+import ErrorBoundarys from './Refs & HTTP Req/ErrorBoundarys'
+import errorBoundaryHandling from './Refs & HTTP Req/errorBoundaryHandling'
 
 
 // Error Boundary helps to wrap up the element or Component
@@ -41,11 +41,11 @@ export default function RefsandHTTP() {
 
             <errorBoundaryHandling>
             <ErrorBoundarys movie='Iron Man'/>
-            </errorBoundaryHandling> 
+            </errorBoundaryHandling>  */}
 
             <errorBoundaryHandling>
             <ErrorBoundarys movie='Darknight'/>
-            </errorBoundaryHandling>  */}
+            </errorBoundaryHandling> 
 
             <HOC_1_clickCounter car ='BMW'/>
             <hr></hr>

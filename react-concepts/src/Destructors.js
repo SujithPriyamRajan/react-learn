@@ -25,7 +25,7 @@ import ListRendering from './Rendering & Destructor/ListRendering'
 
 //HTTP GET & POST
 import HTTP_Req_Intro from './Rendering & Destructor/HTTP Request/HTTP_Req_Intro'
-//import HTTP_REQ_POST from './Rendering & Destructor/HTTP Request/HTTP_REQ_POST'
+import HTTP_REQ_POST from './Rendering & Destructor/HTTP Request/HTTP_REQ_POST'
 
 
 export default function Destructor() {
@@ -60,7 +60,7 @@ export default function Destructor() {
             <hr></hr>
             <HTTP_Req_Intro />
             <hr></hr>
-            {/* <HTTP_REQ_POST/> */}
+            <HTTP_REQ_POST/>
      </div>
     )
   }

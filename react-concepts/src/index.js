@@ -20,7 +20,7 @@ import ReactDOM from 'react-dom/client';
 //Along with component Did mounting & Component unmounting
 //using UseState with Objects & Arrays 
 
-import Destructor from './Destructors';
+//import Destructor from './Destructors';
 
 //destructors props of function competent
 //destructors props of class competent
@@ -38,7 +38,7 @@ import Destructor from './Destructors';
 //Pure Components
 //memo
 
-//import RefsandHTTP from './RefsandHTTP';
+import RefsandHTTP from './RefsandHTTP';
 
 //Refs
 //Refs with Class comp
@@ -57,8 +57,7 @@ root.render(
 
     {/* <Hooks /> */}
 
-    <Destructor />
-    
+    {/* <Destructor /> */}
     {/* <ListandKeys /> */}
 
     {/* <RefsandHTTP /> */}

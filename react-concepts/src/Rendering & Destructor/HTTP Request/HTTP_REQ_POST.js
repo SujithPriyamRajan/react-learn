@@ -19,7 +19,7 @@ export class HTTP_REQ_POST extends Component {
     submitHandler = submit =>{
         submit.preventDefault()
         console.log(this.state)
-        axios.post('https://jsonplaceholder.typicode.com/posts',this.state) //sumbitHandler for button onclick event
+        axios.post('https://jsonplaceholder.typicode.com/posts34',this.state) //sumbitHandler for button onclick event
         .then(response => {
             console.log(response)
         })
